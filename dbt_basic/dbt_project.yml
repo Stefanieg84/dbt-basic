@@ -37,3 +37,13 @@ models:
     refined:
       schema: refined
       materialized: view
+    l1_landing:
+      schema: L1_LANDING
+      materialized: table
+    l2_staging:
+      schema: L2_STAGING
+      materialized: view
+    l3_consumption:
+      schema: L3_CONSUMPTION
+      materialized: table
+
